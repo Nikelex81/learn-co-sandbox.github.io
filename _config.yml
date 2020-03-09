@@ -1,0 +1,20 @@
+# Site settings
+author: Nikelson Exantus
+title: 
+header-img: img/home-bg.png
+email: nikelsone1981@hotmail.com
+copyright_name: Nikelson Exantus
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  learn-co-sandbox
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
